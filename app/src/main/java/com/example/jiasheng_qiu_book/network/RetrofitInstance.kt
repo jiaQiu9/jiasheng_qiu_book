@@ -7,7 +7,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 
 object RetrofitInstance {
     private const val BASE_URL = "https://www.googleapis.com/books/v1/"
-    const val API_KEY = "AIzaSyDZ1oUDPgc9egccV1ZmmLcgKhLA9CzoIaM"
+    const val API_KEY = "api key"
 
     val api: BookApiService by lazy {
         val moshi = Moshi.Builder()
